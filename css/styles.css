@@ -1,0 +1,29 @@
+#wrapper {
+    width: 970px;
+    background-color: #265174;
+}
+
+#textsize {
+    margin-top: 0px;
+    margin-left: 750px;
+    padding: 0;
+}
+#textsize p, #textsize a{
+    display: inline-block;
+    width:auto;
+}
+
+#textsize p{
+    color: white;
+}
+
+#textsize a {
+    color: #617D51;
+}
+
+#pythonimg {
+    display: inline-block;
+}
+#search {
+    display: inline-block;
+}
