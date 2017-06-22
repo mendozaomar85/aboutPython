@@ -1,5 +1,5 @@
 #wrapper {
-    max-width: 970px;
+    width: 970px;
     height: 455px;
     background-color: #265174;
     padding: 0px;
@@ -131,8 +131,8 @@
 
 /*paragraph containing python history*/
 #history {
-    margin: 10px 0px;
-    padding: 0;
+    margin: 10px 10px;
+    padding: 0px;
     display: inline-block;
     width: 75%;
     text-align: center;
@@ -141,7 +141,10 @@
     color: white;
     vertical-align: top;
 }
-
+    .pythonHistory {
+        margin-left: 80px;
+        width: 550px;
+    }   
     .beautiful {
         color:#BDAB52;
         font-style: oblique;
