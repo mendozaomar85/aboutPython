@@ -127,6 +127,8 @@
     text-align: center;
     display: inline-block;
     box-sizing: border-box;
+    padding: 0;
+    margin: 0;
 }
 
 /*paragraph containing python history*/
@@ -139,7 +141,7 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: white;
-    vertical-align: top;
+    vertical-align: top;;
 }
     .pythonHistory {
         margin-left: 80px;
@@ -159,14 +161,13 @@
         font-weight: normal;
         padding: 0;
         margin-top: 15px;
-        margin-bottom: 0;
     }
 
 /* code for get.. started and apps*/
 #subcontent {
-    width: 970px;
-    margin: 15px 0 0 0;
-    padding: 0;
+    width: 100%;
+    margin: 0;
+    padding-top: 15px;
     box-sizing: border-box;
     display: block;
 }
@@ -179,7 +180,8 @@
         display: inline-block;
         box-sizing: border-box;
         vertical-align: top;
-        margin-top: 25px;
+        margin-top: 30px;
+        margin-bottom: 15px;
         border-top: 5px solid #75A8D3;
     }
 
@@ -189,7 +191,7 @@
         margin: 10px 0;
     }
 
-    #gettingstarted, #applications {
+    #gettingStarted, #applications {
         text-align: center;
         padding-left: 10px;
         padding-right: 100px;
@@ -202,8 +204,9 @@
         padding: 0;
     }
 
-    .guides span {
+    .guides a {
         color: #75a8d3;
+        text-decoration: none;
     }
 
     .guides li {
@@ -219,14 +222,15 @@
 /*footer*/
 #footer {
     background:linear-gradient( #2b5c86, #75A8f3);
-    margin-left: -30px; 
+    margin: 0; 
     padding: 0;
     display: inline-block;
-    width: 970px;
+    width: 100%;
     height: auto;
     margin-top: 5px;
     color:lightblue;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
     #footer ul {
@@ -237,7 +241,7 @@
         display: inline-block;
         text-align: center;
         margin-top: 30px;
-        padding: 0 20px;
+        padding: 0;
         font-size: 18px;
     }
 
